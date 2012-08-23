@@ -23,5 +23,7 @@ git push --tags
 
 # publish package
 gem build oboe_fu.gemspec
-sudo cp oboe_fu-$VERSION.gem /www/gem/gems
-sudo gem generate_index -d /www/gem
+echo "Now go copy oboe_fu-$VERSION.gem to packages/gem/gems and run:"
+echo "gem generate_index -d packages/gem/gems"
+#sudo cp oboe_fu-$VERSION.gem /www/gem/gems
+#sudo gem generate_index -d /www/gem
